@@ -39,8 +39,7 @@ public class HotelRoom {
             apartmentPrice *= 0.90;
         }
 
-        System.out.printf("Apartment: %.2f lv.", apartmentPrice);
-        System.out.println();
-        System.out.printf("Studio: %.2f lv.", studioPrice);
+        System.out.printf("Apartment: %.2f lv.%n", apartmentPrice);
+        System.out.printf("Studio: %.2f lv.%n", studioPrice);
     }
 }
